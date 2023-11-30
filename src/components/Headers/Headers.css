@@ -1,0 +1,16 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(103, 136, 93);
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(214, 243, 219);
+    padding-top:6rem;
+
+        @media (min-width:768px) {
+            font-size: 4.5rem;
+            
+    }
+}

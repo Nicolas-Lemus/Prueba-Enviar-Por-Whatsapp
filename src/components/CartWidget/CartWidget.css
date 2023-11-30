@@ -1,0 +1,14 @@
+.icon{
+    font-size: 20px;
+    color: black;
+}
+.icon:hover{
+    color: #086d2b;
+    scale: 1.1;
+    transition: 0.5s;
+}
+.cartQuantity{
+    margin-left: 1rem;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}

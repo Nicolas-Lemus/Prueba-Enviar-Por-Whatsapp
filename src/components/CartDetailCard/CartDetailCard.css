@@ -1,0 +1,48 @@
+.shoppingCart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.qty{
+    font-size: 1rem;
+    text-align: center;
+}
+#total{
+    margin-top: .4rem;
+    font-size: 1.2rem;
+}
+.cart h3{
+    font-size: 1.3rem;
+}
+.cart img{
+    @media (min-width:992px) {
+        margin-top: 0;
+    }
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: .7rem;
+}
+.buttonPedirContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonPedir{
+    background: rgba(92, 161, 113, 0.677);
+    width: 150px;
+    height: 70px;
+    font-size: 1.2rem;
+    color: white;
+    padding: .4rem;
+    border-radius: 20px;
+    font-weight: 700;
+    margin: 1rem auto;
+    border: none;
+}
+.buttonPedir:hover{
+    background: rgb(59, 130, 57);
+}
