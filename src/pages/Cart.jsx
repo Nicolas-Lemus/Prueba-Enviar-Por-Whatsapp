@@ -1,6 +1,6 @@
 
 import React, { useContext } from "react";
-import { collection, getDoc, doc, getFirestore } from "firebase/firestore";
+import { collection, getDoc, doc, getFirestore,} from "firebase/firestore";
 import { CartContext } from "../context/CartContext";
 import CartDetailCard from "../components/CartDetailCard/CartDetailCard";
 import Headers from "../components/Headers/Headers";
@@ -11,12 +11,12 @@ import TitleCart from "../components/TitleCart/TitleCart";
 
 const fetchProductsByIds = async (ids) => {
   const db = getFirestore();
-  const tecnologiaRefs = ids.map((id) => doc(collection(db, "tecnologia"), id));
+  const tecnologiaRefs = ids.map((id) => doc(collection(db, "Tecnologia"), id));
   const tecnologiaSnapshots = await Promise.all(
     tecnologiaRefs.map((tecnologiaRef) => getDoc(tecnologiaRef))
   );
 
-  const tecnologia = tecnologiaSnapshots.map((tecnologiaSnapshot) => {
+  const Tecnologia = tecnologiaSnapshots.map((tecnologiaSnapshot) => {
     if (tecnologiaSnapshot.exists()) {
       const productData = tecnologiaSnapshot.data();
       return { id: tecnologiaSnapshot.id, title: productData.title, ...productData };
@@ -25,7 +25,7 @@ const fetchProductsByIds = async (ids) => {
     }
   });
 
-  return tecnologia.filter((product) => product !== null);
+  return Tecnologia.filter((product) => product !== null);
 };
 
 
@@ -51,6 +51,7 @@ const Cart = () => {
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, "_blank");
   };
+
   
 
   React.useEffect(() => {
@@ -62,6 +63,7 @@ const Cart = () => {
       .catch(() => setError(true))
       .then(() => setLoading(false));
   }, [count]);
+
 
   return loading ? (
     <DotSpinner />
@@ -86,14 +88,15 @@ const Cart = () => {
       </div>
       <div className="buttonPedirContainer">
       {count.tecnologia.length > 0 && (
-          <button 
-            className="buttonPedir"
-            onClick={captureOrder}>
-                Consultar por WhatsApp
-          </button>
+      <>
+        <button 
+          className="buttonPedir"
+          onClick={captureOrder}>
+            Consultar por WhatsApp
+        </button>
+          </>
         )}
       </div>
-        
     </div>
   );
 };
