@@ -15,7 +15,7 @@ const Item = () => {
   useEffect(() => {
     const db = getFirestore();
 
-    const tecnologiaCollection = doc(db, "Tecnologia", itemId);
+    const tecnologiaCollection = doc(db, "tecnologia", itemId);
 
     getDoc(tecnologiaCollection)
       .then((snapshot) => {

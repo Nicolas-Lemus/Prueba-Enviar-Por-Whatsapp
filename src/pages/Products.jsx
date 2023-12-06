@@ -13,7 +13,7 @@ const Products = () => {
   useEffect(() => {
 
     const db = getFirestore();
-    const tecnologiaCollection = collection(db, "Tecnologia");
+    const tecnologiaCollection = collection(db, "tecnologia");
     getDocs(tecnologiaCollection)
     
       .then((snapshot) => {

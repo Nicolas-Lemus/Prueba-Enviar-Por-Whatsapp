@@ -15,7 +15,7 @@ const Category = () => {
 
   useEffect(() => {
     const db = getFirestore();
-    const tecnologiaCollection = collection(db, "Tecnologia");
+    const tecnologiaCollection = collection(db, "tecnologia");
     getDocs(tecnologiaCollection)
       .then((snapshot) => {
         const tecnologiaFilter = snapshot.docs.map((doc) => ({

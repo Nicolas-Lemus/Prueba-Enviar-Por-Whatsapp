@@ -11,7 +11,7 @@ import TitleCart from "../components/TitleCart/TitleCart";
 
 const fetchProductsByIds = async (ids) => {
   const db = getFirestore();
-  const tecnologiaRefs = ids.map((id) => doc(collection(db, "Tecnologia"), id));
+  const tecnologiaRefs = ids.map((id) => doc(collection(db, "tecnologia"), id));
   const tecnologiaSnapshots = await Promise.all(
     tecnologiaRefs.map((tecnologiaRef) => getDoc(tecnologiaRef))
   );
@@ -94,7 +94,11 @@ const Cart = () => {
           onClick={captureOrder}>
             Consultar por WhatsApp
         </button>
-          </>
+        <button
+          className="buttonPedir"
+          ><a href="/cart">Borrar todo</a>
+        </button>
+        </>
         )}
       </div>
     </div>

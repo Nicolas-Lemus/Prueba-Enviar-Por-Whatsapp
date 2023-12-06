@@ -43,6 +43,10 @@
     margin: 1rem auto;
     border: none;
 }
+.buttonPedir a{
+    color: white;
+    text-decoration: none;
+}
 .buttonPedir:hover{
     background: rgb(59, 130, 57);
 }
