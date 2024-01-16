@@ -5,7 +5,8 @@ import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import "./CartWidget.css"
 
-const CartWidget = () => {
+
+  const CartWidget = () => {
 
   const [quantity,setQuantity] = useState(0);
   const {count} = useContext(CartContext);
@@ -25,3 +26,4 @@ const CartWidget = () => {
 };
 
 export default CartWidget;
+
