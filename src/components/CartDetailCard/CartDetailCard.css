@@ -32,13 +32,13 @@
     align-items: center;
 }
 .buttonPedir{
-    background: rgba(92, 161, 113, 0.677);
+    background: rgb(59, 130, 57);
     width: 150px;
-    height: 70px;
+    height: 80px;
     font-size: 1.2rem;
     color: white;
     padding: .4rem;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: 700;
     margin: 1rem auto;
     border: none;
@@ -48,8 +48,9 @@
     text-decoration: none;
 }
 .buttonPedir:hover{
-    background: rgb(59, 130, 57);
+    background: white;
     transition: 1s;
+    color:rgb(59, 130, 57);
 }
 .rounded-0,.btn-primary:hover{
     transition: 1s;

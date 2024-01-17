@@ -26,8 +26,8 @@ const NavBar = () => {
                 <Navbar.Toggle onClick={handleNavCollapse} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <NavLink to="/" onClick={handleLinkClick} className='enlaces'>Home</NavLink>
-                        <NavLink to="/products" onClick={handleLinkClick} className='enlaces'>Productos</NavLink>
+                        <NavLink to="/" onClick={handleLinkClick} className='enlaces' id='home'>Home</NavLink>
+                        <NavLink to="/products" onClick={handleLinkClick} id='products' className='enlaces'>Productos</NavLink>
                         <NavDropdown title="Categorias" className='enlacesDes' id="basic-nav-dropdown">
                             <NavDropdown.Item as={NavLink} to="/category/Smartphones" onClick={handleLinkClick} className='enlaces'>Smartphones</NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to="/category/Notebooks" onClick={handleLinkClick} className='enlaces'>Notebooks</NavDropdown.Item>

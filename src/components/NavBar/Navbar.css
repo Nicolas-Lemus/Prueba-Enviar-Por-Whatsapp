@@ -21,18 +21,19 @@
 .enlaces{
     text-decoration: none;
     border-radius: 5px;
+    padding: .5rem;
     margin: 1.4rem 1rem auto 0rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 .enlaces:hover{
     color:rgb(0, 0, 0) !important ;
-    background: rgba(47, 47, 47, 0.403);
+    background: rgba(93, 180, 69, 0.403);
     text-decoration: underline;
     transition: 0.5s;
 }
 .enlacesDes{
-    margin: .28rem;
+    margin : .8rem;
 }
 .enlacesDes a{
     color: rgb(0, 0, 0);
@@ -41,7 +42,7 @@
     color:rgb(0, 0, 0);
 }
 .enlacesDes:hover{
-    background: rgba(84, 82, 82, 0.403);
+    background:  rgba(93, 180, 69, 0.403);
     transition: 0.5s;
     border-radius: 5px;
 }
@@ -57,4 +58,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+#home,#products{
+    padding-left: 1.7rem;
 }

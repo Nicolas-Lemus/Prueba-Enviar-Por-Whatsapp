@@ -13,8 +13,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .rounded-0{
-    background: rgba(33, 100, 53, 0.873);
-    color: rgb(0, 0, 0);
+    background:rgb(59, 130, 57);
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 1.4rem;
     width: 40px;
@@ -22,11 +22,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
     border-radius: 50% !important;
 }
 .rounded-0:hover{
-    background: rgb(59, 130, 57);
+    background: white;
     transition: 1s;
+    color:rgb(59, 130, 57);
+    border: solid 1px rgb(59, 130, 57);
+    font-weight: 700;
 }
 
 .ml-2{
@@ -39,6 +43,8 @@
     background: rgba(255, 255, 255, 0.826);
     color: green;
     border-color: none !important;
+    font-weight: 400;
+    border: 1px solid green;
 }
 .quantity{
     display: flex;
