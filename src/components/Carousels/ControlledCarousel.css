@@ -20,3 +20,9 @@
 .carousel-indicators [data-bs-target]{
     background:rgb(0, 0, 0);
 }
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    display: none;
+}
+.carousel-indicators{
+    z-index: 0;
+}

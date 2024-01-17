@@ -13,7 +13,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .rounded-0{
-    background: rgba(92, 161, 113, 0.677);
+    background: rgba(85, 198, 119, 0.873);
     color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 1.6rem;
@@ -26,6 +26,7 @@
 }
 .rounded-0:hover{
     background: rgb(59, 130, 57);
+    transition: 1s;
 }
 
 .ml-2{

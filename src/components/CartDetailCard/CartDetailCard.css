@@ -49,4 +49,8 @@
 }
 .buttonPedir:hover{
     background: rgb(59, 130, 57);
+    transition: 1s;
+}
+.rounded-0,.btn-primary:hover{
+    transition: 1s;
 }

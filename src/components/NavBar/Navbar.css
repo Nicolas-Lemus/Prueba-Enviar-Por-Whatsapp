@@ -21,7 +21,7 @@
 .enlaces{
     text-decoration: none;
     border-radius: 5px;
-    margin: 1.4rem;
+    margin: 1.4rem 1rem auto 0rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
