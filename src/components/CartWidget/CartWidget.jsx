@@ -14,7 +14,7 @@ import "./CartWidget.css"
     setQuantity(count.tecnologia.reduce((total, product) => total + product.quantity, 0));
   }, [count]);
   return (
-    <div>
+    <div className="cartWidget">
       <Link  to="/cart">
         <FontAwesomeIcon className="icon" icon={faCartShopping}/>
         <span className="cartQuantity">{quantity}</span>
