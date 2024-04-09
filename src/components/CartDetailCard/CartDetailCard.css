@@ -32,7 +32,7 @@
     align-items: center;
 }
 .buttonPedir{
-    background: rgb(59, 130, 57);
+    background: rgb(0, 0, 0);
     width: 150px;
     height: 80px;
     font-size: 1.2rem;
@@ -50,7 +50,7 @@
 .buttonPedir:hover{
     background: white;
     transition: 1s;
-    color:rgb(59, 130, 57);
+    color:rgb(0, 0, 0);
 }
 .rounded-0,.btn-primary:hover{
     transition: 1s;

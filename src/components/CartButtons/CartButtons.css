@@ -13,7 +13,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .rounded-0{
-    background:rgb(59, 130, 57);
+    background:rgb(56, 59, 56);
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 1.4rem;
@@ -28,28 +28,39 @@
 .rounded-0:hover{
     background: white;
     transition: 1s;
-    color:rgb(59, 130, 57);
-    border: solid 1px rgb(59, 130, 57);
+    color:rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
     font-weight: 700;
 }
 
 .ml-2{
-    background: green;
+    background: rgb(0, 0, 0);
     border:rgb(255, 255, 255);
     color: white;
     margin: 1rem;
 }
 .ml-2:hover{
     background: rgba(255, 255, 255, 0.826);
-    color: green;
+    color: rgb(0, 0, 0);
     border-color: none !important;
     font-weight: 400;
-    border: 1px solid green;
+    border: 1px solid rgb(0, 0, 0);
 }
 .quantity{
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+}
+.Detail h6, a{
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+.Detail h6, a:hover{
+/*     background: rgba(155, 152, 152, 0.459) !important;
+ */    border-radius: 20px;
+    transition: .6s ease;
 }
 

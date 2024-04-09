@@ -1,11 +1,11 @@
 body {
-  background: url(https://cutewallpaper.org/21/dark-green-wallpaper-hd/Dark-Green-Wallpaper-HD-WallpaperSafari-in-2019-Dark-.jpg);
+  background: url(https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_1280.jpg);
   background-size: 200% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .alert{
-  background: rgb(146, 210, 112) !important;
+  background: rgb(17, 17, 17) !important;
   width: 100%;
   height: 100vh;
   background-color: #ffffff;
@@ -23,12 +23,12 @@ body {
 .alert p{
   font-size: 1.8rem;
   font-weight: 700;
-  color: #0f4d1e;
+  color: greenyellow;
   font-family:monospace;
 }
 
 .alert :nth-child(2){
-  color:#185527 ;
+  color:2bcf54;
   padding-top: 2rem;
   font-size: 1.5rem;
 }
@@ -39,13 +39,13 @@ body {
   font-weight: 700;
   width: 200px;
   margin: 50px auto;
-  background-image: linear-gradient(to right, #163d1c 0%, #2a8f47  51%, #063e0e 100%);
+  background-image: linear-gradient(to right, #73d682 0%, #48ad2f  51%, #000000 100%);
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: rgb(0, 0, 0);            
   box-shadow: 0 0 20px rgba(171, 192, 160, 0.922);
   border-radius: 10px;
   display: block;
@@ -53,7 +53,7 @@ body {
 
 .alert button:hover{
   background-position: right center;
-  color: #fff;
+  color: greenyellow;
   text-decoration: none;
 }
 

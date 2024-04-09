@@ -3,10 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(103, 136, 93);
+    background: rgb(0, 0, 0);
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(214, 243, 219);
+    color: rgb(198, 201, 198);
     padding-top:6rem;
 
         @media (min-width:768px){
